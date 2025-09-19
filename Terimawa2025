@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 600px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .status {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .status div {
+            background-color: #ecf0f1;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+            width: 23%;
+        }
+
+        .status div h3 {
+            margin: 0;
+            color: #3498db;
+        }
+
+        .status div p {
+            margin: 5px 0;
+            color: #7f8c8d;
+        }
+
+        .warning {
+            background-color: #e74c3c;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: block;
+            background-color: #3498db;
+            color: white;
+            padding: 12px 25px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>WhatsApp Dashboard</h2>
+
+        <!-- Warning Message -->
+        <div class="warning">
+            <p><strong>Peringatan:</strong> Dilarang menghapus pesan yang sudah terkirim. Pelanggaran akan berakibat pemblokiran akun.</p>
+        </div>
+
+        <!-- WhatsApp Status Section -->
+        <div class="status">
+            <div>
+                <h3>Whatsapp Aktif</h3>
+                <p>1</p>
+            </div>
+            <div>
+                <h3>Whatsapp Terputus</h3>
+                <p>0</p>
+            </div>
+            <div>
+                <h3>Total Whatsapp</h3>
+                <p>1</p>
+            </div>
+            <div>
+                <h3>Pesan Hari Ini</h3>
+                <p>4</p>
+            </div>
+        </div>
+
+        <!-- Button to add WhatsApp -->
+        <a href="#" class="btn">Tambah WhatsApp</a>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 WhatsApp Dashboard. All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>
